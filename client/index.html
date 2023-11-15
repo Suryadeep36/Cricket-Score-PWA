@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <title>Current Score</title>
+</head>
+<body>
+    <div id="main">
+        <h1 class="text">Get current score of any live cricket match with result !!!</h1>
+        <h2 class="text">Enter the url of any cricket match from cricbuzz website</h2>
+        <p class="text">Note: Please don't enter invalid url it will crash the site</p>
+        <form action="/" method="post" id="myForm">
+            <input type="text" id = "inputField" placeholder="Enter match url" name="string">
+            <button id="btn" type="submit">Get Score!!</button>
+        </form>
+    </div>
+
+    <script src="client.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #232D3F;
+}
+#main{
+    text-align: center;
+    background-color: aqua;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #005B41;
+}
+.text{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: #C5E898;
+}
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+#btn{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    font-size: medium;
+    background-color: #AF2655;
+    border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}

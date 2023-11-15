@@ -2,7 +2,7 @@
 self.addEventListener("push", e => {
     const data = e.data.json();
     if(data.bowTeam == " "){
-        data.bowTeam = "Another team yet to bat"
+        data.bowTeam = "Another team yet to bat";
     }
     self.registration.showNotification(
         data.title, // title of the notification

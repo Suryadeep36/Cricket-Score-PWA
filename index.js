@@ -78,5 +78,6 @@ async function scrape(url){
     const rawTxt2 = await txt2.jsonValue();
     
     browser.close();
+    console.log("Scrapping is done 👍!!");
     return [rawTxt, rawResult, rawTxt2];
 };

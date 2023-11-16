@@ -58,7 +58,7 @@ app.listen(port, ()=>{
 
 async function scrape(url){
     //opening browser and page
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({headless: true});
     const page = await browser.newPage();
   
     // Navigate the page to a URL

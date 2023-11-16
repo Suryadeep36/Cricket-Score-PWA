@@ -62,7 +62,7 @@ async function scrape(url){
     const page = await browser.newPage();
   
     // Navigate the page to a URL
-    await page.goto(url, {timeout: 0});
+    await page.goto(url, {waitUntil: 'load',timeout: 0});
 
     //scraping text 
     const [el] = await page.$x('/html/body/div[1]/div[2]/div[4]/div[3]/div[2]/div[1]/div[1]/div[1]/div[1]/h2');

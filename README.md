@@ -4,6 +4,7 @@
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
+- [About the Developer](#about-the-developer)
 
 ## Intro
 This is a progressive web app that includes the use of:-
@@ -40,3 +41,13 @@ It demonstrates the use of Puppeteer API to scrape data like cricket scores from
 2) Click on get score.
 3) allow notifications on Chrome.
 4) wait for 10-15 seconds.
+
+## About The Developer
+
+Hi there! 👋 I'm Gohil Suryadeep, the developer behind this project. I'm relatively new to the exciting world of web development and am thrilled to share this project with you.
+
+I've been eager to explore and apply my newfound knowledge in practical ways. This project is a testament to my learning process and a hands-on application of web technologies.
+
+Feel free to explore the code, provide feedback, or even contribute!
+
+Happy coding! 🚀

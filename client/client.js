@@ -1,4 +1,5 @@
 const publicVapidKey = "BDrkpKTDDZ1B4g59BFODk8REnEg_a9n6fU_pC937XtSF5ZQBWFyeH1zkuYd-TT97X65gbgxA8j5tI-DuyeZAFV4";
+//Your public Vapid key here
 function urlBase64ToUint8Array(base64String) {
     const padding = "=".repeat((4 - base64String.length % 4) % 4);
     const base64 = (base64String + padding)

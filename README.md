@@ -27,7 +27,7 @@ It demonstrates the use of Puppeteer API to scrape data like cricket scores from
 
 	cd Cricket-Score-PWA
 
-2. make a .env file in the root directory to store your vapid public and private keys 
+2. make a .env file in the root directory to store your vapid public and private keys. Also, update vapid public key in client.js
 	
 3. Execute the following commands:-
 
